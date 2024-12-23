@@ -14,13 +14,13 @@ You can install these tools using the following commands:
 
 ```bash
 # Install assetfinder
-go install github.com/assetfinder/assetfinder@latest
+go install github.com/tomnomnom/assetfinder@latest
 
 # Install subfinder
-go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 # Install httpx-toolkit
-go install github.com/projectdiscovery/httpx-toolkit/cmd/httpx-toolkit@latest
+sudo apt-get install httpx-toolkit
 ```
 ## Usage
 Run the script by providing a domain as an argument. The domain will be used to search for subdomains, which will then be filtered for live subdomains. The final output will be saved in a file named after the domain.
